@@ -1,0 +1,20 @@
+{
+  "name": "@example/project",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.html",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "workbox generateSW workbox-config.js",
+    "publish":"npm publish"
+  },
+  "author": "Fynks",
+  "email": "",
+  "dependencies": {
+  "workbox-cli": "^6.3.0"
+}
+}
