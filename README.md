@@ -1,4 +1,15 @@
- 
+ <h1 align="center"> Netlify Strater </h1>
+  
+`
+NPM Packages:
+`
+----------
+  - workbox-cli
+  - pagecrypt
+  - @josee9988/minifyall
+  
+--------
+
 <!-- badges -->
 <p align="center">
     <!-- mainteinance -->
@@ -12,4 +23,4 @@
 
 
 
-                                         Name © 2021
+                                         Name © 2022

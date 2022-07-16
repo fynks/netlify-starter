@@ -9,12 +9,14 @@
     "url": ""
   },
   "scripts": {
-    "build": "workbox generateSW workbox-config.js",
+    "build": "minifyall --dir ./src/json && rsync -a --delete ./src/json/ ./dist/json && pagecrypt ./src/index.html ./dist/index.html PASSWORD && workbox generateSW workbox-config.js",
     "publish":"npm publish"
   },
   "author": "Fynks",
   "email": "",
   "dependencies": {
-  "workbox-cli": "^6.3.0"
+    "workbox-cli": "^6.5.3",
+    "@josee9988/minifyall": "^1.2.2",
+    "pagecrypt": "^5.4.0"
 }
 }
